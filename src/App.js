@@ -18,7 +18,7 @@ export default function App() {
     setIsHydrated(true)
   }, [])
 
-  function getRandomProblem() {
+  function getRandomProblem () {
     const firstNum = getRandomNumber(10)
     let secondNum = getRandomNumber(10)
     const operator = getRandomOperator()
